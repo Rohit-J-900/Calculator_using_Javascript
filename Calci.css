@@ -1,0 +1,118 @@
+h1{
+    color: black;
+}
+.parent{
+    background-color: black;
+    color: white;
+    height: 600px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(19,auto);
+    gap: 5px;
+    margin: auto;
+    border: 8px solid aqua;
+    border-radius: 20px;
+}
+.d{
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+i{
+    font-weight: bold;
+    font-size: 25px;
+}
+.section{
+    grid-column: 1/5;
+    grid-row: 1/15;
+    border-radius: 11px;
+}
+.d4{
+    grid-column: 1/2;
+    grid-row: 15/16;
+}
+.d5{
+    grid-column: 2/3;
+    grid-row: 15/16;
+}
+.d6{
+    grid-column: 3/4;
+    grid-row: 15/16;
+}
+.d7{
+    grid-column: 4/5;
+    grid-row: 15/16;
+}
+.d8{
+    grid-column: 1/2;
+    grid-row: 16/17;
+}
+.d9{
+    grid-column: 2/3;
+    grid-row: 16/17;
+}
+.d10{
+    grid-column: 3/4;
+    grid-row: 16/17;
+}
+.d11{
+    grid-column: 4/5;
+    grid-row: 16/17;
+}
+.d12{
+    grid-column: 1/2;
+    grid-row: 17/18;
+}
+.d13{
+    grid-column: 2/3;
+    grid-row: 17/18;
+}
+.d14{
+    grid-column: 3/4;
+    grid-row: 17/18;
+}
+.d15{
+    grid-column: 4/5;
+    grid-row: 17/18;
+}
+.d16{
+    grid-column: 1/2;
+    grid-row: 18/19;
+}
+.d17{
+    grid-column: 2/3;
+    grid-row: 18/19;
+}
+.d18{
+    grid-column: 3/4;
+    grid-row: 18/19;
+}
+.d19{
+    grid-column: 4/5;
+    grid-row: 18/19;
+}
+.d20{
+    grid-column: 1/2;
+    grid-row: 19/20;
+}
+.d21{
+    grid-column: 2/3;
+    grid-row: 19/20;
+}
+.d22{
+    grid-column: 3/4;
+    grid-row: 19/20;
+    font-weight: bold;
+    font-size: 25px;
+}
+.d23{
+    grid-column: 4/5;
+    grid-row: 19/20;
+}
+button{
+    width: 100%;
+}
