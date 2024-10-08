@@ -1,4 +1,4 @@
-   let CurrDisplay="0";
+let CurrDisplay="0";
         let ResultDisplay=false;
 
         function before(value)
